@@ -1,27 +1,64 @@
-# PipesApp
+## Angular Application with PrimeNG UI Framework and PrimeFlex Support
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+This repository contains an Angular application showcasing the implementation of various Angular pipes alongside the utilization of PrimeNG as the UI framework and PrimeFlex for additional support. This project is a part of my portfolio, demonstrating my proficiency in Angular, UI frameworks, and leveraging Angular pipes effectively.
 
-## Development server
+### Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular Pipes Demonstrated:**
+  - `DatePipe`: Format dates in various ways.
+  - `UpperCasePipe` / `LowerCasePipe`: Manipulate text case.
+  - `CurrencyPipe`: Format currency values.
+  - `DecimalPipe`: Format decimal numbers.
+  - `PercentPipe`: Display percentages.
+  - `AsyncPipe`: Handle observable data effortlessly.
+  - `SlicePipe`: Slice and display array or string elements.
+  - `Custom Pipes`: Custom implementation of pipes catering to specific needs.
 
-## Code scaffolding
+- **PrimeNG UI Framework:**
+  - Integration of PrimeNG components throughout the application for responsive and appealing UI elements.
+  - Utilization of PrimeFlex for enhanced layout and styling options.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Getting Started
 
-## Build
+Follow these steps to get the application up and running locally:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository:
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Install dependencies:
 
-## Running end-to-end tests
+   ```bash
+   cd your-repo
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Start the development server:
 
-## Further help
+   ```bash
+   ng serve
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Open your browser and navigate to `http://localhost:4200/` to view the application.
+
+### Usage
+
+Feel free to explore the codebase to understand the implementation of Angular pipes and how PrimeNG components are utilized within the project.
+
+### Contribution
+
+Contributions, issues, and feature requests are welcome! If you find any bugs or have suggestions for improvements, please open an issue.
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
+
+### Contact
+
+For any inquiries or collaborations, feel free to reach out to me at [gkevinyamil@gmail.com](mailto:gkevinyamil@gmail.com).
+
+---
+
+This project aims to demonstrate my expertise in Angular, showcasing the power of Angular pipes while utilizing PrimeNG for a robust UI experience. Thank you for checking out my repository! 🚀🔧🎨
